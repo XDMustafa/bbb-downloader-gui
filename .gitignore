@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec.bak
+
+# macOS / OS cruft
+.DS_Store
+
+# Local logs
+crash.log
+bbb_downloader.log
+*.log
+
+# Dev-only diagnostics
+debug_diagnose_url.py
+
+# In-app FFmpeg downloads (ffmpeg-all-version cache)
+ffmpeg All version/

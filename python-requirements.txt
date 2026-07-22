@@ -1,0 +1,10 @@
+# GUI app requirements
+customtkinter>=5.0.0
+pillow>=8.0.0
+requests>=2.25.1
+pyperclip>=1.8.0
+
+# Upstream bbb-downloader deps (used by script/download_bbb_data.py)
+wheel>=0.36.2
+progressbar>=2.5
+numpy>=1.19.5
